@@ -163,7 +163,7 @@ namespace PiMe
             // Create Project Oxford Vision API Service client
             //
             Speak("Ok, I am analysing your photo!");
-            VisionServiceClient VisionServiceClient = new VisionServiceClient("52dc919127a645ca99a050f06ab49c9d");
+            VisionServiceClient VisionServiceClient = new VisionServiceClient("---------");
             Debug.WriteLine("VisionServiceClient is created");
 
             StorageFile file = await StorageFile.GetFileFromPathAsync(imageFilePath);
